@@ -31,12 +31,22 @@
             <div class="form-row">
                 <div class="label-input">
                 <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name">
+                <input type="text" 
+                id="first-name" 
+                name="first-name"
+                required
+                pattern="[a-zA-Z]*"
+                title="Please input a valid name.">
                 </div>
 
                 <div class="label-input">
                 <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name" required>
+                <input type="text" 
+                name="last-name" 
+                id="last-name" 
+                required
+                pattern="[a-zA-Z]*"
+                title="Please input a valid name.">
                 </div>
             </div>
             
@@ -55,12 +65,22 @@
             <div class="form-row">
                 <div class="label-input">
                 <label for="pwd">PASSWORD</label>
-                <input type="password" name="pwd" id="pwd" required minlength="6">
+                <input type="password"
+                 name="pwd" 
+                 id="pwd" 
+                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                 title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                 required>
                 </div>
 
                 <div class="label-input">
                 <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                <input type="password" name="confirm-pwd" id="confirm-pwd" required minlength="6">
+                <input type="password" 
+                name="confirm-pwd" 
+                id="confirm-pwd"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+                required>
                 </div>
             </div>
         </form>
