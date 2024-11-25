@@ -102,7 +102,7 @@ body {
 .form-row input[type='number'],
 .form-row input[type='password']
  {
-    width: 250px;
+    width: 220px;
     font-size: 14px;
     border: 1px solid #E5E7EB;
     border-radius: 3px;
@@ -143,6 +143,30 @@ input:placeholder-shown {
     background-color: #fff;
 }
 
+.create {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 40px;
+    gap: 40px;
+}
+
+.create button {
+    background-color: #596D48;
+    color: white;
+    width: 190px;
+    height: 45px;
+    border-radius: 8px;
+    border: inherit;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);;
+    font-size: 0.9rem;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.create a {
+    color: #596D48;
+}
 
 
 
