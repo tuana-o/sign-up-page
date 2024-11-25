@@ -34,9 +34,10 @@
                 <input type="text" 
                 id="first-name" 
                 name="first-name"
+                pattern="[a-zA-Z]+"
+                title="Please input a valid name."
                 required
-                pattern="[a-zA-Z]*"
-                title="Please input a valid name.">
+                placeholder="">
                 </div>
 
                 <div class="label-input">
@@ -44,21 +45,22 @@
                 <input type="text" 
                 name="last-name" 
                 id="last-name" 
+                pattern="[a-zA-Z]+"
+                title="Please input a valid name."
                 required
-                pattern="[a-zA-Z]*"
-                title="Please input a valid name.">
+                placeholder="">
                 </div>
             </div>
             
             <div class="form-row">
                 <div class="label-input">
                 <label for="email">EMAIL</label>
-                <input type="email" name="email" id="email" required>
+                <input type="email" name="email" id="email" required placeholder="">
                 </div>
 
                 <div class="label-input">
                 <label for="phone-number">PHONE NUMBER</label>
-                <input type="number" name="phone-number" id="phone-number" required>
+                <input type="number" name="phone-number" id="phone-number" required placeholder="">
                 </div>
             </div>
 
@@ -70,7 +72,8 @@
                  id="pwd" 
                  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                  title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
-                 required>
+                 required
+                 placeholder="">
                 </div>
 
                 <div class="label-input">
@@ -80,7 +83,8 @@
                 id="confirm-pwd"
                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                 title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
-                required>
+                required
+                placeholder="">
                 </div>
             </div>
         </form>

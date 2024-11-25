@@ -117,12 +117,30 @@ label {
     letter-spacing: 1px;
 }
 
+input:focus:invalid,
+input:not(:placeholder-shown):invalid {
+    outline: 1px solid red;
+    background-color: #ffe6e6;
+
+}
 input:invalid {
     outline: 1px solid red;
+    background-color: #ffe6e6;
+}
+
+input:focus:valid
+{
+    outline: 1px solid rgb(147, 217, 147);
 }
 
 input:valid {
-    outline: 1px solid green;
+    outline: 1px solid rgb(147, 217, 147);
+    background-color: #e6ffe6;
+}
+
+input:placeholder-shown {
+    outline: none;
+    background-color: #fff;
 }
 
 
