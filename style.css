@@ -6,7 +6,7 @@
 
 body {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     background-color: #f9faf8;
     color: #fff;
     line-height: 1.5;
@@ -40,5 +40,4 @@ body {
     width: auto;
     object-fit: contain;
 }
-
 
