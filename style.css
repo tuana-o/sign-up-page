@@ -9,7 +9,6 @@ body {
     background-color: #e9ebf0;
     color: #fff;
     line-height: 1.2;
-    max-width: 1200px;
     font-family: 'Roboto', Helvetica, sans-serif;
 }
 
@@ -19,7 +18,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 50vw;
+    width: 40vw;
     min-height: 300px;
     min-width: 350px
 }
@@ -60,16 +59,33 @@ body {
     display: flex;
     flex-direction: column;
     padding: 40px;
-    margin-top: 65px;
-    margin-left: 30px;
-    width: 100%;
+    margin-top: 60px;
     font-size: 20px;
     font-weight: 500;
+    width: 650px;
 }
 
 .three {
     margin-top: 30px;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 60vw;
+    height: auto;
+    background-color: #fff;
+    padding-left: 40px;
+}
 
+.title {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.row-1 {
+    display: flex;
+}
 
