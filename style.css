@@ -162,6 +162,12 @@ input:placeholder-shown {
     font-size: 0.9rem;
     font-weight: 900;
     padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.create button:hover {
+    transform: scale(1.01);
 }
 
 .create a {
