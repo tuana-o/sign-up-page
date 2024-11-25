@@ -11,6 +11,7 @@ body {
     color: #fff;
     line-height: 1.5;
     max-width: 1200px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 .section {
@@ -19,9 +20,9 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 40vw;
+    width: 50vw;
     min-height: 300px;
-    min-width: 200px
+    min-width: 350px
 }
 
 .container {
@@ -39,5 +40,16 @@ body {
     height: 90px;
     width: auto;
     object-fit: contain;
+}
+
+@font-face {
+    font-family: 'norseBold';
+    src: url('Norse-Bold.otf');
+}
+
+.container h2 {
+    margin-top: 15px;
+    font-family: 'norseBold';
+    font-size: 4rem;
 }
 
